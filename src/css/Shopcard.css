@@ -1,0 +1,61 @@
+.shopcard-container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f5f5f5;
+    cursor: default;
+    transition: scale .3s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    padding-block-end: 20px;
+    padding-inline: 15px;
+}
+.shopcard-container:hover {
+    scale: 1.020;
+}
+
+.shopcard-title {
+    text-transform: uppercase;
+}
+
+.shopcard-main {
+    width: 100%
+}
+
+.shopcard-img {
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    height: auto;
+}
+
+.shopcard-color {
+    padding: 5px 20px;
+}
+
+.shopcard-price {
+    padding: 5px;
+    font-weight: bold;
+    color: #D64433;
+}
+
+.shopcard-add-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D64433;
+    background-color: #f9f9f9;
+    color: #D64433;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}
+.shopcard-add-btn:hover {
+    background-color: #D64433;
+    color: #f9f9f9;
+}
+
+.shopcard-footer {
+    display: flex;
+    justify-content: space-around;
+}
